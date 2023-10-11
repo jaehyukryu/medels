@@ -5,7 +5,7 @@ echo "Install JQ"
 echo "$(pwd)"
 #mkdir -p ./jq_dir
 #curl -L https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64 -o ./jq_dir/jq
-docker pull ghcr.io/jqlang/jq:1.7
+docker pull ghcr.io/jqlang/jq:1.7 /var/jenkins_home/workspace/tfsec_test
 
 chmod 755 ./jq_dir/jq
 
