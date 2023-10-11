@@ -12,11 +12,11 @@ echo "$(pwd)"
 # docker run --rm -v "$(pwd):/src" aquasec/tfsec /src -f junit > tfsec_results.xml
 # docker run --rm -v $(pwd)/:/src aquasec/tfsec /src --no-color
 
-curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
+# curl -s https://raw.githubusercontent.com/aquasecurity/tfsec/master/scripts/install_linux.sh | bash
 
-mkdir "$(pwd)/tfsec_dir"
+# mkdir "$(pwd)/tfsec_dir"
 
-tar xzvf tfsec_1.18.0_linux_arm64.tar.gz -C "$(pwd)/tfsec_dir"
+# tar xzvf tfsec_1.18.0_linux_arm64.tar.gz -C "$(pwd)/tfsec_dir"
 
 # ls -alt "$(pwd)/tfsec_dir"
 
